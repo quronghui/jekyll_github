@@ -7,9 +7,8 @@
 
 # Site settings
 title: SmallWater Blog
-SEOTitle: SmallWater | SmallWater 
 brief-intro: You and me
-header-img: /assets/img/bike.jpg
+header-img: assets/img/bike.jpg
 description: "You and Me"
 baseurl: "" # the subpath of your site, e.g. /blog
 keyword: "quronghui, Hardware, Markdown"
