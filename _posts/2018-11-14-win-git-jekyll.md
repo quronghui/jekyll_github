@@ -12,4 +12,5 @@ tags: windows, GitHub Pages, jeklly, Blog
 ### github
 1. Building yourself github account number.
 2. Build a New respository.
-    + Name : you_github_name.github.io (ep: quronghui.github.io)
+    + Name : “github_name”.github.io (ep: quronghui.github.io)
+    + 
