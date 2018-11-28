@@ -18,7 +18,7 @@ github_repo: "https://github.com/quronghui/quronghui.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "love you"
-sidebar-avatar:  /assets/img/bike.jpg      # use absolute URL, seeing it's used 
+sidebar-avatar:  ![HC-05-AT]({{ site.url }}/assets/img/bike.jpg)      # use absolute URL, seeing it's used 
 
 permalink: /:year/:month/:day/:title/
 
