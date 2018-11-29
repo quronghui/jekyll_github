@@ -86,4 +86,5 @@ plugins: [jekyll-paginate]
 paginate: 6
 port: 4001
 
-theme: jekyll-theme-slate
+# 加了这个，本地运行会报错
+# theme: jekyll-theme-slate
