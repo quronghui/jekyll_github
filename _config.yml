@@ -18,7 +18,7 @@ github_repo: "https://github.com/quronghui/quronghui.github.io.git" # you code r
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "love you"
-sidebar-avatar:        # use absolute URL, seeing it's used 
+sidebar-avatar:                         # use absolute URL, seeing it's used 
 
 permalink: /:year/:month/:day/:title/
 
@@ -82,8 +82,11 @@ tag_dir: tag/
 excerpt_separator: "\n\n\n\n"
 
 # paginate
+# 怎么才能限制博客文章的长度，不全部显示
 plugins: [jekyll-paginate]
-paginate: 6
+# permalink: pretty
+paginate: 5
+# per_page: 5         # 每页文章数量
 port: 4001
 
 # 加了这个，本地运行会报错

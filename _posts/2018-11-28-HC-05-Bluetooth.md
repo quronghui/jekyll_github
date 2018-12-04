@@ -18,5 +18,5 @@ tags: Bluetooth, HC-05, AT
     + 按住按键在上电（或者EN脚接高电平）；
     + 波特率 38400；
 4. 按照AT指令输入相应的设置；
-+ ![HC-05-AT]({{ site.url }}/assets/img/HC_05.jpg)
+ ![HC-05-AT]({{ site.url }}/assets/img/HC_05.jpg)
 

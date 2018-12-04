@@ -70,6 +70,7 @@ tags: windows  GitHub Pages  jeklly  Blog
 3. _drafts 草稿文件夹
     + 保存一些占时没有写好的文档，不会进行发表。
     + jekyll serve --drafts : 查看未发表的草稿博客
+    
 ### github.io 文件夹目录
 1. index.html -- 创建主页面
     + 任何网站的配置一样，需要按约定在站点的要目录下找到index.html
@@ -77,3 +78,13 @@ tags: windows  GitHub Pages  jeklly  Blog
 2. 为其他文件创建页面
     + 命名 HTML 文件
     ![html]({{ site.url }}/assets/img/html.png)
+    + 没有真正理解这个每个页面的展示，没有成功实现
+3. _config.yml -- 文件
+    + 修改文件，好像本地博客不会发生改变
+### 代码亮亮
+1. 代码亮亮   
+    ![code]({{ site.url }}/assets/img/code.png)
+2. 给代码加入行号  
+    ![line]({{ site.url }}/assets/img/line.png)
+
+ + https://cadlab.io/
