@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 计算机组成与设计 硬件／软件接口 
+title: 计算机组成与设计 硬件／软件接口 第一章 计算机概要与技术 
 date: 2018-12-03
 categories: Book
 tags: Computer Software Hardware Interface 
@@ -58,8 +58,10 @@ tags: Computer Software Hardware Interface
     - 操作系统
     - 编译程序：将高级语言翻译为计算机识别的机器语言的程序
 3. 指令
+
     + 0/1数字：即表述指令（计算机硬件理解并服从的命令），又表示数据（二进制位）
 4. 汇编语言
+
     + 语言是一种指令（表示），程序是转换的过程。
 + 汇编程序：将指令由助记符形式翻译成二进制形式的程序
 + 汇编语言：以助记符形式表示的机器指令；
@@ -118,7 +120,7 @@ tags: Computer Software Hardware Interface
 3. **硬件/软件接口：显示并行编程**
     + 并行性对计算机一直十分重要
     + 程序员未来：显式并行编程，不单是串行
-  
+
 ![parallel]({{ site.url }}/assets/icbook/parallel.png)
 
 ## Iner Core i7 基准
