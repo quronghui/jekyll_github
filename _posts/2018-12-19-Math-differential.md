@@ -11,15 +11,16 @@ tags: Euler Runge-Kutta
 # 数值微分
 
 + 考试内容
-  + Netwon-Cotes 构造n次代数精度
-  + 正交多项式族求Gussion
+  + 改进欧拉
+  + Runge-Kutta(龙格-库塔)
+  + 稳定性分析
 
 
 ## Schedule
 
 |Dateline|start time|end time|Learning|
 |:-:|:-:|:-:|:-:|
-|2018/12/19|17：00|||
+|2018/12/19|17：00|22：00||
 
 
 
@@ -49,6 +50,19 @@ tags: Euler Runge-Kutta
 
    ![euler3]({{ site.url }}/assets/math/euler3.png)
 
+## 收敛性结论
+
+1. 隐式Euler比显示好
+
+2. 单步格式的整体截断误差由初值误差及局部截断误差决定，整体截断误差比局部截断误差的阶数低一阶.
+
+   ![euler4]({{ site.url }}/assets/math/euler4.png)
+
+## 稳定性分析
+
+1. 差值要趋近于零
+
+   ![euler5]({{ site.url }}/assets/math/euler5.png)
 
 
 
