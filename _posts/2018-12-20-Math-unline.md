@@ -27,7 +27,7 @@ tags: Newton
 1. 将 f(x) = 0 的方程，转化为关于 x = g（x）的方程。
    + f(x)=0  的点称为根
    + x = g(x) 不动点
-2. 迭代法：不断通过 x 进行逼近
+2. 迭代法：不断通过计算 x （n-1）的值，逼近 x(n)的值
 
 ![unline]({{ site.url }}/assets/math/unline.png)
 
