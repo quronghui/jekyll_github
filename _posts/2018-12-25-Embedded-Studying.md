@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Embedded Studying
+title: Electronic Studying
 date: 2018-12-25
-categories: Embedded
+categories: Electronic
 tags: Ways Direction
 ---
 
-# Embedded Studying
+# Electronic Studying
 
 - 嵌入式学习的一个方向指导
 - 嵌入式过程中常用的工具，社区，书籍
@@ -22,6 +22,7 @@ tags: Ways Direction
 + 从嵌入式的元件，到计算机的整体架构；
 + [bilibili](https://www.bilibili.com/)  视频学习教程
 + 搜索[计算机科学](https://search.bilibili.com/all?keyword=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6&from_source=banner_search)----【计算机科学速成课】
++ [Owns Learning logs](2019-1-8-Computer-History-from- Embedded.md)
 
 ## Tools and Link
 
@@ -54,7 +55,7 @@ tags: Ways Direction
 
 3. 学习[【高质量PCB设计入门--Eagle使用】](https://pan.baidu.com/s/1dkkCsLxvMnmt7JEx2uNjbg)
 
-4. [自己学习的记录](2018-12-10-Eagle.md)
+4. [Owns Learning logs](2018-12-10-Eagle.md)
 
 ### Adobe Creative Cloud
 

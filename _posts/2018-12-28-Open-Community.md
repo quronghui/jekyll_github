@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gandhi 'racist'
+title: Prada, what were you thinking? 
 date: 2018-12-26
 categories: English
 tags: Gandhi
@@ -31,4 +31,3 @@ tags: Gandhi
 4. That's an explanation, however, not an excuse. Globalism demands allowing more voices—more diverse voices—into the creative process and into the decision-making equation.这是一种解释，却不是开脱的理由。一个全球化发展的品牌，需要让更多的声音——更多元化的声音——参与到创意的过程和决策的权衡之中。
 
 
- 

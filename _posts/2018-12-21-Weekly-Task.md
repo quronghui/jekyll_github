@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Exam week
+title: Weekly task
 date: 2018-12-21
 categories: WeeklyTasks
 tags: Weekly task
@@ -14,7 +14,7 @@ tags: Weekly task
 | 2018.12.26                       | 完成CC2540主板的替换，还有信号线没有确定 | 完成Eagle的布线和布局 |                        |
 | 2018.12.27                       | 完成EEG的MCU替换，今天确定物料           |                       |                        |
 
-
+1.7号-1.13号：嵌入式学习
 
 ## EPIC Task
 
@@ -31,7 +31,11 @@ tags: Weekly task
 
 1. 【2018.12.26】完成Eagle的布线和布局
 
+
+
 ## Own Interesting
+
+# 一月份
 
 
 
