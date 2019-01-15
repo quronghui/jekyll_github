@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Electronic Siginal to CPU
+title: Electronic Signal to CPU
 date: 2019-1-8
 categories: Electronic
 tags: ALU RAM CPU
 ---
 
-# Electronic Siginal to CPU
+# Electronic Signal to CPU
 
 + 从嵌入式的元件，到计算机的整体架构；
 + [bilibili](https://www.bilibili.com/)  视频学习教程
