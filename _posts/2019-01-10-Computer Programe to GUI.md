@@ -16,8 +16,11 @@ tags: programe software
 
 1. 早期的冯诺依曼结构
 
+   + 早期的程序和数据存放是分开的，数据和程序的更换需要停下机器；冯诺依曼结构解决了程序和数据存入同一个地方的问题
+
    + ALU + data register + instruction register + instruction adress register  + memory(store instruction and data)
-2. 程序的输入方式
+   + 简写：ALU + Register + RAM
+2. 程序和数据的输入？
 
    + 插线板 + 开关 + 穿孔纸卡
 3. 如何更简单的将程序输入到内存中?
@@ -25,10 +28,12 @@ tags: programe software
    + 编程语言 + 编译器的方式
    + 抽象成高级语言
 4. **抽象一** ：将代码打包成函数 funcation, 库
+5. 二进制数 --  伪代码 -- 汇编语言
 
 ## Algorithm
 
-1. Algorithm: 解决问题的具体步骤
+1. Algorithm : 解决问题的具体步骤
+   + 相同的结果，所需步骤越少，算法越好
 2. Sorting(排序问题)
    + Array 进行排序：复杂度是 O(n ^ 2)
    + 归并排序：进行分组排序，组内先排序
@@ -36,7 +41,7 @@ tags: programe software
 
 ## Data Structures
 
-1. 定义：算法处理的数据在memory中的存储方式
+1. 定义：算法处理的数据，在memory中的存储方式
 
 2. 数据的存储方式
 
@@ -52,13 +57,7 @@ tags: programe software
 
    + software：面向对象的编程：函数 -- > 抽象为对象 -- >对象进行不同的分类  
 
-   + ```
-     Funcation	Object 				Example :  Obiect Enginer
-     			   Funcation 1						Object 1
-                    	Funcation 2						 Object2
-                	END Object					   End Object
-                	
-     ```
+     ![software.png]({{ site.url }}/assets/img/computer/software.png)           	
 
 2. 函数 --->  对象 ：包含了
 
@@ -74,21 +73,24 @@ tags: programe software
 ## Integrated Circuit
 
 1. 分立元件 -- 集成元件
-2. ( PCB + IC chip )  ---  减小线的连接
+2. ( PCB + IC chip )  ---  减少线的连接
 3. PCB的工艺（光刻）：放更多的晶体管
 
 ## Operate Systems
 
 ### Operate System
 
-1. OS :本质上是一个程序
+1. Operate System :本质上是一个程序
    + 操作硬件的权限
    + 运行和管理其他程序的功能
 2. CPU : 硬件的核心，对内存地址的调度
 3. 任务：
    + 自动加载需要运行的程序
-   + 多任务操作系统：需要对内存地址进行分配；
-   + 提供API接口：抽象硬件底层和上层的关系，方便Program
+   + 多任务操作系统：需要对内存地址进行分配，动态存储数据；
+   + 提供API接口：抽象硬件底层和上层的关系，方便programme
+4. Unix Operate System
+   1. Kernel : 内存管理，多任务和输入/输出处理
+   2. 工具：不属于内核，只是程序和运行库。
 
 ### Storage  &&  Memory
 
@@ -101,12 +103,14 @@ tags: programe software
 
 ### Files Systems
 
-1. 文件系统：对文件进行管理和增删
+1. 文件系统：对文件进行管理和增删。通过文件夹进行层层嵌套
 2. 文件格式：文件的本质，知道文件是什么？
+   + 规定文件的存储格式，类似于数据结构
+   + .txt ;  .wav ;  .bmp
 3. 文件表示
    + 在最底层的表示：都是0/1数据
    + 上层：各自文件拥有的文件格式。example：.bmp ; .wav
-   + 根据文件格式，知道如何去解码
+   + 根据文件格式，知道如何去解码.  example： video ； audio
 4. 碎片整理
    + 文件的增删改查会导致文件散落在各个块，
    + 碎片整理，将相同的文件类型数据进行调整统一
@@ -115,7 +119,7 @@ tags: programe software
 
 1. 压缩：为了花更小的内存代价，存储更多的数据
 2. 无损压缩：相同格式的 位/块 ，只用一位进行表示
-3. 时间冗余：利用帧前后的相似性，之存储变化的部分
+3. 时间冗余：利用帧前后的相似性，只存储变化的部分
 
 ###  man-machine interaction
 

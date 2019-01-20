@@ -17,17 +17,30 @@ tags: Ways Direction
 
 
 
-## Computer history from Embedded
+## Computer history 
 
 + 从嵌入式的元件，到计算机的整体架构；
 + [bilibili](https://www.bilibili.com/)  视频学习教程
 + 搜索[计算机科学](https://search.bilibili.com/all?keyword=%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6&from_source=banner_search)----【计算机科学速成课】
-+ [Owns Learning logs](2019-1-8-Computer-History-from- Embedded.md)
++ [2019-01-08-Electronic Siginal to CPU](2019-01-08-Electronic Siginal to CPU.md)
++ [2019-01-10-Computer Programe to GUI](2019-01-10-Computer Programe to GUI.md)
++ [2019-01-14-Computer-Internet](2019-01-14-Computer-Internet.md)
++ [2019-01-15-Computer-Others](2019-01-15-Computer-Others.md)
 
-## Tools and Link
+## Awesome Electronics
 
 + 介绍嵌入式的一些网址，工具，和开源社区
 + GitHub 中[kitspace](https://github.com/kitspace)/**awesome-electronics**
++ github 中的 awesome，是一个很强大的 Project
+
+### Communication
+
+1. IIC and Uart and SPI 
+
+## Book
+
+1. Eagle 的学习使用【高质量PCB设计入门--Eagle使用】
+2. LinuxC 编程一站式学习
 
 ## Tools
 
@@ -66,13 +79,41 @@ tags: Ways Direction
 
 ### AutoCAD
 
-1. PCB盒子外观设计。
+## Open Link
 
-## Link
+1. **IT Community**
+   1. [stackoverflow](https://stackoverflow.com/)  ：IT与程序相关的IT技术问答网站
+   2. [element](https://www.element14.com/community/welcome) :  IT的互助社群
+2. **China IT Community **
+   1. [CSDN](https://www.csdn.net/)  ：国内IT的博客分享平台
+   2. [开源中国](https://www.oschina.net/)  ：中国最大的开源IT社区
+3. **UI Design**
+   1. [UI dribbble ](https://dribbble.com/justui)  
+   2. [UI Behance ]() 
+4. **Vector ICONS**
+   1. [FlatIcon](https://www.flaticon.com/)  : 有版权限制的矢量图标
+   2. [iconfont](https://www.iconfont.cn/)  : 矢量图标
+5. **Security Community**
+   1. [看雪论坛](https://bbs.pediy.com/) : 致力于PC、移动、智能设备安全研究及逆向工程的开发者社区
+   2. [吾爱破解](https://www.52pojie.cn/)：论坛致力于软件安全与病毒分析的前沿,丰富的技术版块交相辉映,由无数热衷于软件加密解密及反病毒爱好者共同维护
+   3. [ i 春秋 ]注网络安全、信息安全、白帽子技术的在线学习,教育、培训的平台
+6. **Emebadded Community**
+   1. [hackaday](https://hackaday.com)  ： Hardware open source items
+   2. [hackster](https://www.hackster.io/)    ：Hardware open source store
+   3. [Cadlab.io ](https://cadlab.io/) ： 可以使用github push 的可视化图形软件
+7. **Crowdfunding Community **
+   1. [kickstarter](https://www.kickstarter.com/)  ：众筹项目
+   2. [indiegogo](https://www.indiegogo.com/)   :  众筹项目
+   3. [modian](https://www.modian.com/)       :  中国的众筹项目
+8. [Hacker New](https://news.ycombinator.com/news)  ：世界的重要新闻
+9. **RSS**  (Really Simple Syndication)
+   1. [inoreader](https://www.inoreader.com/)  :  RSS订阅是站点用来和其他站点之间共享内容的一种简易方式，即Really Simple Syndication（简易信息聚合）。
+   2. [feedly](https://feedly.com/)  :  Feedly是一款第三方RSS阅读器，在经过了几次更新后，已经有比较多的忠实的使用者。
+      + 第一次访问*Feedly*的用户，*Feedly*会自动提示接入 Google Reader的访问权限，无需注册新会员.
+      + 能够增加我们之前的Open Source
 
-### Cadlab.io
 
-1. [Cadlab.io](https://cadlab.io/)
-2. cadlab.io  可以使用github push 的可视化图形软件
-3. 在gitpush的时候看到改变的地方
-
+10. PDF Transform Doc
+    1. https://pdf2doc.com/
+11. Algorithm  visualization*
+    1. https://visualgo.net/zh : 算法可视化的工具，用于展示算法的好工具

@@ -16,9 +16,11 @@ tags: ALU RAM CPU
 
 
 
-## Electronical Signal
+## Mechanical to Electronical Signal
 
-1. 继电器里面的虫子 -- Bug
+1. 继电器里面的虫子 -- Bug；
+
+   + 从这里开始，我们的计算设备从 Mechannical to Electronical Signal
 
 2. 继电器 -- 真空管 -- 晶体管 ？
 
@@ -34,11 +36,13 @@ tags: ALU RAM CPU
 
 4. **抽象一** ：逻辑门首次将电信号首次抽象为0/1数据
 
-## Data
+## Electronical Signal to Data
 
-+ 用二进制编码，表示照片，电影，数据
++ 二进制：对十进制数进行表示
++ ALU 算术逻辑单元
++ 将 Electronical Signal to Data
 
-1. byte -- bits
+1. byte --8 bits
 2. 32 bit and 64bit difference
    + 当首位的 0 1 表示正负时，32bit 的就不够用了
    + 计算机目前采用的是64bit
@@ -55,6 +59,12 @@ tags: ALU RAM CPU
 5. 到这里就明白了，计算机在没有卡轮情况下，是如何进行计算的。
 
 ## Data Memory -- RAM
+
++ Memory and Storage is different.
++ Gated Latch and 
+  + Gated Latch : 存1 bit
+  + Register  :  存8bit
++  1 bit Latch;  8 bit Register;  256 bit Memory
 
 1. 运用ALU进行数据存储
 
@@ -90,7 +100,7 @@ tags: ALU RAM CPU
 
       ![memory4.png]({{ site.url }}/assets/img/computer/memory4.png)
 
-   2. 存储8位数据
+   2. 8个256bit Memory 级联，存储8位数据
 
       ![memory5.png]({{ site.url }}/assets/img/computer/memory5.png)
 
@@ -104,12 +114,14 @@ tags: ALU RAM CPU
    + 内存：
      + 寄存器：存运行数据，和操作数
      + RAM：存数据和程序
-   + CPU = ALU + 内存
+   + CPU = RAM + Register + ALU
      + CPU -- 执行programs 
      + program -- 由操作数组成
      + 操作数 -- 由指令组成 instruction
 
 2. **CPU的过程**：取指 --> 解码 --> 执行
+
+   + Register通过 ALU 与RAM 交互过程
 
    1. 这一过程：**时钟周期**
 
@@ -137,4 +149,9 @@ tags: ALU RAM CPU
    1. CPU chip  --- RAM  : Data交互，通过Bus总线 ;
    2. CPU chip 增加 Cache : 为了适应高时钟频率，更快传递Data;
    3. 串行执行[CPU过程] -- 并行执行；
-   4. 流水线进行操作
+   4. Multi-core
+
+7. GPU : 
+
+   + 与CPU类似，只不过GPU是专为执行复杂的数学和几何计算而设计的，这些计算是图形渲染所必需的。
+   + 有了GPU，CPU就从图形处理的任务中解放出来，可以执行其他更多的系统任务，这样可以大大提高计算机的整体性能。
