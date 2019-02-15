@@ -121,3 +121,4 @@ tags: Ways Direction
 
     1. 通过串口发送，就之间显示出对应的图形和数据
     2. 在显示屏上显示二维码就可以用。
+13. Resume and job
