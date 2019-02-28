@@ -121,4 +121,9 @@ tags: Ways Direction
 
     1. 通过串口发送，就之间显示出对应的图形和数据
     2. 在显示屏上显示二维码就可以用。
-13. Resume and job
+13. 与非网：一些嵌入式的前沿
+    1. 可能你已修炼成资深行业观察家，如[何小庆](https://www.eefocus.com/article/tag/%E6%98%BE%E5%BE%AE%E9%95%9C%E4%B8%8B%E7%9A%84%E5%B5%8C%E5%85%A5%E5%BC%8F%E4%BA%A7%E4%B8%9A)老师那样真知灼见；
+    2. 可能你善于分析行业趋势，如[飞翔的鸭子](https://www.eefocus.com/article/tag/%E9%A3%9E%E9%B8%AD%E8%B0%88%E8%8A%AF)侃侃而谈；
+    3. 可能你精通某一项技术，如[加菲](https://www.eefocus.com/article/tag/verilog%E4%BC%A0%E5%A5%87)那样精讲技术而不失幽默；
+    4. 可能你善于发现身边的工程师故事，如[骆驼](https://www.eefocus.com/article/tag/%E7%A8%8B%E5%BA%8F%E5%91%98%E8%B6%A3%E4%BA%8B%E4%B8%80%E7%AE%A9%E7%AD%90)般娓娓道来。
+

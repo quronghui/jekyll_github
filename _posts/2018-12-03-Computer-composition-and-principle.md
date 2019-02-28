@@ -7,13 +7,6 @@ tags: Computer Software Hardware Interface
 ---
 
 # 第一章 计算机概要与技术 
-## Schedule
-
-|Dateline|start time|end time|Learning|
-|:-:|:-:|:-:|:-:|
-|2018/12/3|19:00|20:00|从新开始学习
-|2018/12/4|8:20|9:57|第一章
-
 ## Proper Noun
 
 |Full name|中文|acronym|
